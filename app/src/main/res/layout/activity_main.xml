@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ariflr.myapplication.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/dNama"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="Nama : Roy Simbiring" />
+
+            <TextView
+                android:id="@+id/dNis"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="NIS : 200101010" />
+
+            <TextView
+                android:id="@+id/dAlm"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="Alamat : Jl Kijang No 2 , Pesanggarahan, Jawa Barat" />
+
+            <TextView
+                android:id="@+id/dKota"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="Kota : Bogor" />
+
+            <TextView
+                android:id="@+id/dPos"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="Kode Pos : 16830" />
+
+            <TextView
+                android:id="@+id/dTlp"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="Telepon : 29990010101" />
+
+            <TextView
+                android:id="@+id/dHp"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="Handphone : 0812811111" />
+
+            <TextView
+                android:id="@+id/dEml"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="Email : roy@sembiring.com" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
